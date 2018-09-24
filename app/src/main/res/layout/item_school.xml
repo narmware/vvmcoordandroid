@@ -72,6 +72,12 @@
                     android:layout_height="wrap_content"
                     style="@style/title_card"/>
 
+                <TextView
+                    android:text="Profile Status:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -88,7 +94,6 @@
 
                 <TextView
                     android:id="@+id/txt_sch_co_name"
-                    android:text="Rohit Ram Savant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/desc_card"/>
@@ -103,7 +108,6 @@
                 <TextView
                     android:id="@+id/txt_sch_city"
                     android:maxLines="2"
-                    android:text="Pune"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/desc_card"/>
@@ -112,6 +116,16 @@
                     android:id="@+id/txt_pay_status"
                     android:text="Paid"
                     android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+
+                <TextView
+                    android:id="@+id/txt_profile_status"
+                    android:text="Complete"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_700"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/desc_card"/>
@@ -162,7 +176,7 @@
                     android:id="@+id/txt_call_count"
                     android:text="(1)"
                     android:textSize="16sp"
-                    android:textColor="@color/cyan_A700"
+                    android:textColor="@color/blue_700"
                     android:layout_margin="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />

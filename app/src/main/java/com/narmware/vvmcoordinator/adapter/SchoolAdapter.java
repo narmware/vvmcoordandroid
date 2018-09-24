@@ -57,12 +57,33 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
 
         holder.mTxtId.setText(schoolDetails.getInst_id());
         holder.mTxtName.setText(schoolDetails.getInst_name());
-        holder.mTxtCoName.setText(schoolDetails.getExam_coordinator());
+        if(schoolDetails.getExam_coordinator().equals(""))
+        {
+            holder.mTxtCoName.setText(Constants.NOT_PROVIDED);
+        }else{
+            holder.mTxtCoName.setText(schoolDetails.getExam_coordinator());
+        }
         holder.mTxtContact.setText(schoolDetails.getInst_mobile());
-        holder.mTxtCity.setText(schoolDetails.getCity());
+        if(schoolDetails.getCity().equals(""))
+        {
+            holder.mTxtCity.setText(Constants.NOT_PROVIDED);
+        }else{
+            holder.mTxtCity.setText(schoolDetails.getCity());
+        }
         holder.mTxtPayStatus.setText(schoolDetails.getPayment_status());
         holder.mTxtCallCount.setText("("+schoolDetails.getCall_count()+")");
         holder.mTxtLastCall.setText(schoolDetails.getLast_call());
+
+        if(schoolDetails.getNameofprincipal().equals("") || schoolDetails.getNameofprincipal()==null)
+        {
+            holder.mTxtProfileStatus.setText(Constants.INCOMPLETE);
+            holder.mTxtProfileStatus.setTextColor(context.getResources().getColor(R.color.red_500));
+        }
+        else{
+            holder.mTxtProfileStatus.setText(Constants.COMPLETE);
+            holder.mTxtProfileStatus.setTextColor(context.getResources().getColor(R.color.blue_700));
+        }
+
         if(schoolDetails.getCall_count().equals(""))
         {
             holder.mTxtCallCount.setText("(0)");
@@ -122,7 +143,7 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder
     {
-            TextView mTxtId,mTxtName,mTxtCoName,mTxtContact,mTxtCity,mTxtPayStatus,mTxtCallCount,mTxtLastCall;
+            TextView mTxtId,mTxtName,mTxtCoName,mTxtContact,mTxtCity,mTxtPayStatus,mTxtCallCount,mTxtLastCall,mTxtProfileStatus;
             SchoolDetails mItem;
             LinearLayout mBtnCall;
             View view;
@@ -138,6 +159,7 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
             mTxtPayStatus=itemView.findViewById(R.id.txt_pay_status);
             mTxtCallCount=itemView.findViewById(R.id.txt_call_count);
             mTxtLastCall=itemView.findViewById(R.id.txt_last_call);
+            mTxtProfileStatus=itemView.findViewById(R.id.txt_profile_status);
             mBtnCall=itemView.findViewById(R.id.btn_call);
 
             view=itemView;

@@ -10,9 +10,11 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.narmware.vvmcoordinator.MyApplication;
 import com.narmware.vvmcoordinator.R;
 import com.narmware.vvmcoordinator.db.RealmController;
 import com.narmware.vvmcoordinator.fragment.SchoolListFragment;
+import com.narmware.vvmcoordinator.support.Constants;
 import com.narmware.vvmcoordinator.support.SharedPreferencesHelper;
 
 import butterknife.BindView;
@@ -203,4 +205,17 @@ public class FilterActivity extends AppCompatActivity {
         });
     }
 
+
+ /*   @Override
+    protected void onPause() {
+        super.onPause();
+        MyApplication.setLogTime(FilterActivity.this, Constants.LOGOUT_EVENT);
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MyApplication.setLogTime(FilterActivity.this, Constants.LOGOUT_EVENT);
+    }*/
 }

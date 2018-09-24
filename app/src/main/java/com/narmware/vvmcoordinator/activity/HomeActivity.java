@@ -14,19 +14,25 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.narmware.vvmcoordinator.MyApplication;
 import com.narmware.vvmcoordinator.R;
 import com.narmware.vvmcoordinator.fragment.NotificationFragment;
 import com.narmware.vvmcoordinator.fragment.ProfileFragment;
 import com.narmware.vvmcoordinator.fragment.SchoolListFragment;
+import com.narmware.vvmcoordinator.pojo.Login;
+import com.narmware.vvmcoordinator.support.Constants;
 
 import butterknife.BindView;
 import cn.pedant.SweetAlert.SweetAlertDialog;
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 public class HomeActivity extends AppCompatActivity implements SchoolListFragment.OnFragmentInteractionListener,NotificationFragment.OnFragmentInteractionListener,
 ProfileFragment.OnFragmentInteractionListener{
 
     FragmentTransaction fragmentTransaction;
     FragmentManager fragmentManager;
+
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -70,5 +76,18 @@ ProfileFragment.OnFragmentInteractionListener{
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        //MyApplication.setLogTime(HomeActivity.this, Constants.LOGOUT_EVENT);
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+       // MyApplication.setLogTime(HomeActivity.this, Constants.LOGOUT_EVENT);
     }
 }

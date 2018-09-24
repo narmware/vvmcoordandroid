@@ -9,6 +9,7 @@ import com.narmware.vvmcoordinator.pojo.SchoolDetails;
 import com.narmware.vvmcoordinator.support.Constants;
 
 import io.realm.Realm;
+import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
 public class RealmController {
@@ -124,12 +125,10 @@ public class RealmController {
     }
 
     //query example
-    public RealmResults<SchoolDetails> queryedSchoolDetailss() {
+    public RealmResults<SchoolDetails> queryedSchoolDetailss(String name) {
  
         return realm.where(SchoolDetails.class)
-                .contains("author", "Author 0")
-                .or()
-                .contains("title", "Realm")
+                .contains("inst_name",name, RealmQuery.CASE_INSENSITIVE)
                 .findAll();
  
     }

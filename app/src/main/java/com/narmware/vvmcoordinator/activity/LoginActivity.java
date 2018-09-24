@@ -50,7 +50,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     String username,password;
     int validData=0;
 
-    public Dialog mNoConnectionDialog;
     public RequestQueue mVolleyRequest;
     Realm realm;
     RealmResults<Login> login;
@@ -68,7 +67,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         ButterKnife.bind(this);
 
         mVolleyRequest = Volley.newRequestQueue(LoginActivity.this);
-        mNoConnectionDialog = new Dialog(LoginActivity.this, android.R.style.Theme_Light_NoTitleBar_Fullscreen);
 
         mBtnForgot.setOnClickListener(this);
         mBtnLogin.setOnClickListener(this);

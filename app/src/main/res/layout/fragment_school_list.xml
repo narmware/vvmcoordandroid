@@ -6,6 +6,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.narmware.vvmcoordinator.fragment.SchoolListFragment">
 
+
+    <SearchView
+        android:id="@+id/simpleSearchView"
+        android:layout_alignParentRight="true"
+        android:queryHint="Search School"
+        android:iconifiedByDefault="true"
+        android:focusable="true"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/search_view"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <RelativeLayout
         android:id="@+id/lin_empty"
         android:visibility="invisible"
@@ -19,7 +37,7 @@
         <ImageView
             android:layout_centerHorizontal="true"
             android:id="@+id/img"
-            app:srcCompat="@drawable/ic_notifications_none"
+            app:srcCompat="@drawable/ic_business"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -27,7 +45,7 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/img"
             android:id="@+id/txt_no_data"
-            android:text="No Notifications yet"
+            android:text="No schools present"
             android:gravity="center"
             android:textColor="@color/grey_600"
             android:layout_marginTop="10dp"
@@ -37,6 +55,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview"
+        android:layout_below="@+id/search_view"
         android:background="@android:color/transparent"
         android:paddingBottom="70dp"
         android:clipToPadding="false"

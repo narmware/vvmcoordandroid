@@ -1,5 +1,6 @@
 package com.narmware.vvmcoordinator.fragment;
 
+import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -12,12 +13,19 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.SearchView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -76,6 +84,11 @@ public class SchoolListFragment extends Fragment {
     @BindView(R.id.recyclerview) RecyclerView mRecyclerView;
     @BindView(R.id.rootview) RelativeLayout mRootView;
     @BindView(R.id.fab_filter) FloatingActionButton mFabFilter;
+    @BindView(R.id.search_view)
+    EditText mSearchView;
+
+    @BindView(R.id.simpleSearchView) SearchView searchView;
+
     public static RelativeLayout mEmptyLinear;
 
     public static SchoolAdapter schoolAdapter;
@@ -165,6 +178,38 @@ public class SchoolListFragment extends Fragment {
             public void onClick(View v) {
                 Intent intent=new Intent(getContext(), FilterActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        mSearchView.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                setRealmAdapter(RealmController.with(getActivity()).queryedSchoolDetailss(mSearchView.getText().toString()));
+            }
+        });
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                setRealmAdapter(RealmController.with(getActivity()).queryedSchoolDetailss(newText));
+                return true;
             }
         });
     }

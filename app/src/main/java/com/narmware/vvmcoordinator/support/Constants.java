@@ -13,6 +13,7 @@ public class Constants {
     public static final String SCHOOL="school";
     public static final String API_KEY="VVM";
     public static final String LOGIN="coordinator_login";
+    public static final String TIMELOG="coordinator_timelog";
 
     public static final String SUCCESS="200";
     public static final String ERROR="404";
@@ -20,7 +21,19 @@ public class Constants {
     public static final String USERNAME="username";
     public static final String PASSWORD="password";
 
+    public static final String COORD_ID="id";
+    public static final String EVENT="event";
+    public static final String IP_ADDRESS="ip";
+
+    public static final String LOGIN_EVENT="Log in";
+    public static final String LOGOUT_EVENT="Log out";
+
     public static final String PAID="PAID";
     public static final String UNPAID="UNPAID";
+
+    public static final String COMPLETE="Complete";
+    public static final String INCOMPLETE="Incomplete";
+    public static final String NOT_PROVIDED="Not Provided";
+
 }
 
