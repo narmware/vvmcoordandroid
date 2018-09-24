@@ -11,82 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f74c17-2028-4122-a466-66956665af0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/TimeLogResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/VVMCoordinator.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/__local_aars____Users_rohitsavant_Library_Android_sdk_build_tools_26_0_2_renderscript_lib_renderscript_v8_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_core_common_1_0_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_common_1_0_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_runtime_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_animated_vector_drawable_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_cardview_v7_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_design_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_multidex_1_0_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_multidex_instrumentation_1_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_26_1_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_compat_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_ui_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_utils_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_fragment_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_media_compat_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_transition_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_volley_volley_1_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_daimajia_androidanimations_library_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_f0ris_sweetalert_library_1_5_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_basement_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_tasks_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_dagger_dagger_2_8_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_analytics_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_analytics_impl_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_common_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_core_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_iid_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_messaging_11_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_butterknife_8_7_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_butterknife_annotations_8_7_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_pnikosis_materialish_progress_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_squareup_picasso_picasso_2_3_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/de_hdodenhof_circleimageview_2_2_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/io_realm_realm_android_0_82_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_jsr250_api_1_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_javax_inject_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_hamcrest_hamcrest_core_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/MyApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/MyApplication.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/LoginActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/db/RealmController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/db/RealmController.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/support/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/support/Constants.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_school_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_school_list.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_school.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_school.xml" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,13 +37,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SchoolListFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="213" column="11" lean-forward="false" selection-start-line="213" selection-start-column="11" selection-end-line="213" selection-end-column="11" />
+            <state relative-caret-position="-72">
+              <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
               <folding>
                 <element signature="e#7403#7404#0" expanded="true" />
                 <element signature="e#7447#7448#0" expanded="true" />
@@ -115,40 +59,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_school_list.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_school_list.xml">
+      <file leaf-file-name="RealmController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/db/RealmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ic_notifications_none.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_none.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="98" column="43" lean-forward="false" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FilterActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="174" column="21" lean-forward="false" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2038,14 +1986,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/support/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/db/RealmController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/MyApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_business.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_school_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -2071,6 +2021,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2101,7 +2052,7 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="vvmcoordinator" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="broadcast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vvmcoordandroid" type="1abcf292:AndroidViewProjectNode" />
@@ -2112,40 +2063,12 @@
             </path>
             <path>
               <item name="vvmcoordandroid" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="vvmcoordinator" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vvmcoordandroid" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="vvmcoordinator" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vvmcoordandroid" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="vvmcoordandroid" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="vvmcoordandroid" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
     </panes>
@@ -2329,36 +2252,36 @@
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952252" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40591398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40591398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24949563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2371,30 +2294,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/Login.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="98" column="25" lean-forward="false" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+          <folding>
+            <element signature="e#7403#7404#0" expanded="true" />
+            <element signature="e#7447#7448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_school_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/TimeLogResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2410,7 +2361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2418,7 +2368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2429,7 +2378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2451,14 +2399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -2474,15 +2414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/db/RealmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2494,30 +2425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="213" column="11" lean-forward="false" selection-start-line="213" selection-start-column="11" selection-end-line="213" selection-end-column="11" />
-          <folding>
-            <element signature="e#7403#7404#0" expanded="true" />
-            <element signature="e#7447#7448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_none.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2529,15 +2440,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/fragment/SchoolListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+          <folding>
+            <element signature="e#7403#7404#0" expanded="true" />
+            <element signature="e#7447#7448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/db/RealmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="98" column="43" lean-forward="false" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_school_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="414">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/FilterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="174" column="21" lean-forward="false" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

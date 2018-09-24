@@ -81,13 +81,13 @@ ProfileFragment.OnFragmentInteractionListener{
     @Override
     protected void onPause() {
         super.onPause();
-        //MyApplication.setLogTime(HomeActivity.this, Constants.LOGOUT_EVENT);
+        MyApplication.setLogTime(HomeActivity.this, Constants.LOGOUT_EVENT);
 
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-       // MyApplication.setLogTime(HomeActivity.this, Constants.LOGOUT_EVENT);
+        MyApplication.setLogTime(HomeActivity.this, Constants.LOGOUT_EVENT);
     }
 }

@@ -146,7 +146,7 @@ public class FilterActivity extends AppCompatActivity {
 
                 if(SharedPreferencesHelper.getIsPaid(FilterActivity.this)==true)
                 {
-                    SchoolListFragment.setRealmAdapter(RealmController.with(FilterActivity.this).getPaidSchool(false));
+                    SchoolListFragment.setRealmAdapter(RealmController.with(FilterActivity.this).getPaidSchool());
 
                     if(SharedPreferencesHelper.getIsContacted(FilterActivity.this)==true && SharedPreferencesHelper.getIsNotContacted(FilterActivity.this)==true)
                     {

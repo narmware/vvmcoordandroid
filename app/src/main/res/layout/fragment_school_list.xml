@@ -9,10 +9,12 @@
 
     <SearchView
         android:id="@+id/simpleSearchView"
+        android:layout_marginBottom="10dp"
         android:layout_alignParentRight="true"
         android:queryHint="Search School"
-        android:iconifiedByDefault="true"
-        android:focusable="true"
+        android:iconifiedByDefault="false"
+        android:focusedByDefault="false"
+        android:focusableInTouchMode="true"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
