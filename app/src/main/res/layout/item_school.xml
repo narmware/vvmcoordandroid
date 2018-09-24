@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txt_sch_name"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="Narmware Software Solutions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif"
+            style="@style/title_card"/>
+
+        <LinearLayout
+            android:layout_above="@+id/lin_bottom"
+            android:layout_below="@+id/txt_sch_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="School ID:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+
+                <TextView
+                    android:text="Coordinator:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+                <TextView
+                    android:text="Contact number:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+                <TextView
+                    android:text="City:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+                <TextView
+                    android:text="Payment Status:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txt_sch_id"
+                    android:text="1342"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
+                    android:id="@+id/txt_sch_co_name"
+                    android:text="Rohit Ram Savant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
+                    android:id="@+id/txt_sch_contact"
+                    android:text="8805250944"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
+                    android:id="@+id/txt_sch_city"
+                    android:maxLines="2"
+                    android:text="Pune"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
+                    android:id="@+id/txt_pay_status"
+                    android:text="Paid"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/lin_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+
+            <TextView
+                android:id="@+id/txt_last_call"
+                android:text="last call :"
+                android:layout_centerVertical="true"
+                android:textColor="@color/grey_700"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/btn_call"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/custom_call_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Call"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txt_call_count"
+                    android:text="(1)"
+                    android:textSize="16sp"
+                    android:textColor="@color/cyan_A700"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <!--<Button
+                android:id="@+id/btn_call"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Call"
+                android:textColor="@color/colorPrimary"
+                android:minHeight="1dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/custom_call_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
