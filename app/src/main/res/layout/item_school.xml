@@ -66,17 +66,28 @@
                     android:layout_height="wrap_content"
                     style="@style/title_card"/>
 
-                <TextView
-                    android:text="Payment Status:"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/title_card"/>
 
                 <TextView
                     android:text="Profile Status:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/title_card"/>
+
+                <TextView
+                    android:text="Payment Status:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+
+
+
+                <TextView
+                    android:text="Total / Paid / Unpaid:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
 
             </LinearLayout>
 
@@ -113,6 +124,15 @@
                     style="@style/desc_card"/>
 
                 <TextView
+                    android:id="@+id/txt_profile_status"
+                    android:text="Complete"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_700"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
                     android:id="@+id/txt_pay_status"
                     android:text="Paid"
                     android:textStyle="bold"
@@ -122,10 +142,10 @@
 
 
                 <TextView
-                    android:id="@+id/txt_profile_status"
-                    android:text="Complete"
+                    android:id="@+id/txt_profile_paidcnt"
+                    android:text="300 / 250 / 50"
                     android:textStyle="bold"
-                    android:textColor="@color/blue_700"
+                    android:textColor="@color/orange_700"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/desc_card"/>
