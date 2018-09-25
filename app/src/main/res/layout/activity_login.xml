@@ -41,7 +41,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            app:srcCompat="@drawable/vvm_logo"
+            app:srcCompat="@drawable/vvm_logo_old"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/login_img_margin_bottom"
             android:layout_width="@dimen/login_width"

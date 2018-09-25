@@ -28,7 +28,7 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/prof_image"
-                    android:src="@drawable/vvm_logo"
+                    android:src="@drawable/vvm_logo_old"
                     android:layout_width="110dp"
                     android:layout_margin="1dp"
                     android:layout_height="match_parent" />
