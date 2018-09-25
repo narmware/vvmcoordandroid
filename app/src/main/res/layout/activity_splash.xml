@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_centerInParent="true"
-        android:src="@drawable/vvm_logo"
+       android:src="@drawable/vvm_logo_old"
         android:layout_width="200dp"
         android:layout_height="200dp" />
 
