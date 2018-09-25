@@ -9,7 +9,7 @@ import io.realm.RealmObject;
 public class SchoolDetails extends RealmObject {
 
 private String inst_name,inst_mobile,inst_id,nameofprincipal,exam_coordinator,inst_email,payment_status,city;
-    private String call_count,last_call;
+    private String call_count,last_call, total_count, paid_count, unpaid_count;
     private boolean isCalled;
 
     public boolean isCalled() {
@@ -98,5 +98,29 @@ private String inst_name,inst_mobile,inst_id,nameofprincipal,exam_coordinator,in
 
     public void setPayment_status(String payment_status) {
         this.payment_status = payment_status;
+    }
+
+    public String getTotal_count() {
+        return total_count;
+    }
+
+    public void setTotal_count(String total_count) {
+        this.total_count = total_count;
+    }
+
+    public String getUnpaid_count() {
+        return unpaid_count;
+    }
+
+    public void setUnpaid_count(String unpaid_count) {
+        this.unpaid_count = unpaid_count;
+    }
+
+    public String getPaid_count() {
+        return paid_count;
+    }
+
+    public void setPaid_count(String paid_count) {
+        this.paid_count = paid_count;
     }
 }

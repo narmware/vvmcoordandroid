@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0f74c17-2028-4122-a466-66956665af0c" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
@@ -396,23 +397,29 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/no_connection.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no_connection.png" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/science_background.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/science_background.png" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/vvm_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vvm_logo_old.png" />
+=======
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/SchoolDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/SchoolDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_school.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_school.xml" />
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -436,9 +443,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SplashActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java">
+      <file leaf-file-name="item_school.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_school.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="1062">
               <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
@@ -490,6 +498,10 @@
             <state relative-caret-position="45">
               <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
+=======
+            <state relative-caret-position="283">
+              <caret line="147" column="49" lean-forward="true" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
               <folding />
             </state>
           </provider>
@@ -498,6 +510,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/HomeActivity.java">
@@ -511,18 +524,31 @@
             <state relative-caret-position="165">
               <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
+=======
+      <file leaf-file-name="SchoolAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="76" column="90" lean-forward="false" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="SchoolDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/SchoolDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="118" column="35" lean-forward="false" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+              <folding>
+                <element signature="e#2259#2260#0" expanded="true" />
+                <element signature="e#2293#2294#0" expanded="true" />
+                <element signature="e#2641#2642#0" expanded="true" />
+                <element signature="e#2693#2694#0" expanded="true" />
+                <element signature="e#2737#2738#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -2307,8 +2333,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_school.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/TimeLogResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/support/Constants.java" />
@@ -2328,7 +2352,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+<<<<<<< HEAD
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
+=======
+        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/SchoolDetails.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_school.xml" />
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
       </list>
     </option>
   </component>
@@ -2612,6 +2642,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VVMCoordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VVMCoordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vvmcoordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VVMCoordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VVMCoordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vvmcoordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2641,9 +2739,13 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="device.picker.selection" value="6482c239" />
 =======
     <property name="device.picker.selection" value="3291a1557d63" />
+=======
+    <property name="device.picker.selection" value="6482c239" />
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
     <property name="show.migrate.to.gradle.popup" value="false" />
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
   </component>
@@ -2742,7 +2844,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537854622228" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537874547307" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2790,7 +2892,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537854622228" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537874547307" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2986,7 +3088,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537854622234" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1537874547310" />
       </method>
     </configuration>
     <list size="1">
@@ -3091,8 +3193,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2006#2546#0" expanded="true" />
-            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2006#2546#0" expanded="false" />
+            <element signature="e#2545#2546#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3106,6 +3208,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+          <folding>
+            <marker date="1537852154206" expanded="true" signature="7663:7678" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7663:7688" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7663:7696" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7736:10809" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="10885:11139" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="11192:14417" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="13887:14319" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="14036:14309" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="14533:14633" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3113,6 +3226,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
           <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1537852154204" expanded="true" signature="3627:3664" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3192,6 +3308,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="98" column="25" lean-forward="false" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+          <folding>
+            <marker date="1537852154206" expanded="true" signature="7663:7678" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7663:7688" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7663:7696" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7736:10809" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="10885:11139" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="11192:14417" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="13887:14319" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="14036:14309" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="14533:14633" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3246,24 +3373,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_school.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/support/EndPoints.java">
@@ -3291,13 +3402,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/SchoolDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="24" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/MyApplication.java">
@@ -3352,7 +3456,21 @@
 =======
         <state relative-caret-position="1950">
           <caret line="130" column="32" lean-forward="false" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+<<<<<<< HEAD
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
+=======
+          <folding>
+            <marker date="1537852154206" expanded="true" signature="7663:7678" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7663:7688" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7663:7696" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="7736:10809" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="10885:11139" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="11192:14417" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="13887:14319" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="14036:14309" ph="{...}" />
+            <marker date="1537852154206" expanded="true" signature="14533:14633" ph="{...}" />
+          </folding>
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
         </state>
       </provider>
     </entry>
@@ -3365,7 +3483,13 @@
 =======
         <state relative-caret-position="1350">
           <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+<<<<<<< HEAD
 >>>>>>> 93d53a4ae3f0861eda79d3eb34c5a4c64d1bbb14
+=======
+          <folding>
+            <marker date="1537852154204" expanded="true" signature="3627:3664" ph="{...}" />
+          </folding>
+>>>>>>> b179633364b6ec8f44d5f1fe3755793c256794c4
         </state>
       </provider>
     </entry>
@@ -3426,34 +3550,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-          <folding>
-            <element signature="e#2006#2546#0" expanded="true" />
-            <element signature="e#2545#2546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ForgetPassword#0;class#LoginActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/vvm_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -3471,6 +3568,44 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#ForgetPassword#0;class#LoginActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/vvm_logo_old.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/activity/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="e#2006#2546#0" expanded="false" />
+            <element signature="e#2545#2546#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -3482,15 +3617,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/vvm_logo_old.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/pojo/SchoolDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="608">
+          <caret line="118" column="35" lean-forward="false" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+          <folding>
+            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/narmware/vvmcoordinator/adapter/SchoolAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="76" column="90" lean-forward="false" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_school.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="147" column="49" lean-forward="true" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
           <folding />
         </state>
       </provider>

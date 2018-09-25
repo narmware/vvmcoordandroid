@@ -74,6 +74,9 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
         holder.mTxtCallCount.setText("("+schoolDetails.getCall_count()+")");
         holder.mTxtLastCall.setText(schoolDetails.getLast_call());
 
+        String cnt = schoolDetails.getTotal_count()+ " / " + schoolDetails.getPaid_count() + " / " + schoolDetails.getUnpaid_count();
+        holder.mCountTextView.setText(cnt);
+
         if(schoolDetails.getNameofprincipal().equals("") || schoolDetails.getNameofprincipal()==null)
         {
             holder.mTxtProfileStatus.setText(Constants.INCOMPLETE);
@@ -143,7 +146,7 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder
     {
-            TextView mTxtId,mTxtName,mTxtCoName,mTxtContact,mTxtCity,mTxtPayStatus,mTxtCallCount,mTxtLastCall,mTxtProfileStatus;
+            TextView mTxtId,mTxtName,mTxtCoName,mTxtContact,mTxtCity,mTxtPayStatus,mTxtCallCount,mTxtLastCall,mTxtProfileStatus, mCountTextView;
             SchoolDetails mItem;
             LinearLayout mBtnCall;
             View view;
@@ -160,6 +163,7 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
             mTxtCallCount=itemView.findViewById(R.id.txt_call_count);
             mTxtLastCall=itemView.findViewById(R.id.txt_last_call);
             mTxtProfileStatus=itemView.findViewById(R.id.txt_profile_status);
+            mCountTextView = itemView.findViewById(R.id.txt_profile_paidcnt);
             mBtnCall=itemView.findViewById(R.id.btn_call);
 
             view=itemView;
