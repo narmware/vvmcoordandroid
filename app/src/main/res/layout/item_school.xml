@@ -79,16 +79,11 @@
                     android:layout_height="wrap_content"
                     style="@style/title_card"/>
 
-
-
-
                 <TextView
                     android:text="Total / Paid / Unpaid:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/title_card"/>
-
-
             </LinearLayout>
 
             <LinearLayout

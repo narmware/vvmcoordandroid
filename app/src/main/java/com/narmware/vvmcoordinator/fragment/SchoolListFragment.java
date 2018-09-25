@@ -84,13 +84,10 @@ public class SchoolListFragment extends Fragment {
     @BindView(R.id.recyclerview) RecyclerView mRecyclerView;
     @BindView(R.id.rootview) RelativeLayout mRootView;
     @BindView(R.id.fab_filter) FloatingActionButton mFabFilter;
-    @BindView(R.id.search_view)
-    EditText mSearchView;
 
     @BindView(R.id.simpleSearchView) SearchView searchView;
-
+    public static TextView mTxtTotalCount;
     public static RelativeLayout mEmptyLinear;
-
     public static SchoolAdapter schoolAdapter;
     Realm realm;
     ArrayList<SchoolDetails> schoolDetails;
@@ -147,6 +144,7 @@ public class SchoolListFragment extends Fragment {
         mVolleyRequest = Volley.newRequestQueue(getContext());
         //getSchools();
         mEmptyLinear=view.findViewById(R.id.lin_empty);
+        mTxtTotalCount=view.findViewById(R.id.txt_total_count);
 
         MyApplication.config_realm(getContext());
 
@@ -181,24 +179,6 @@ public class SchoolListFragment extends Fragment {
             }
         });
 
-        mSearchView.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-                // TODO Auto-generated method stub
-            }
-
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-                // TODO Auto-generated method stub
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                setRealmAdapter(RealmController.with(getActivity()).queryedSchoolDetailss(mSearchView.getText().toString()));
-            }
-        });
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -224,7 +204,7 @@ public class SchoolListFragment extends Fragment {
 
         if(SharedPreferencesHelper.getIsPaid(getActivity())==true)
         {
-            SchoolListFragment.setRealmAdapter(RealmController.with(getActivity()).getPaidSchool(false));
+            SchoolListFragment.setRealmAdapter(RealmController.with(getActivity()).getPaidSchool());
 
             if(SharedPreferencesHelper.getIsContacted(getActivity())==true && SharedPreferencesHelper.getIsNotContacted(getActivity())==true)
             {
