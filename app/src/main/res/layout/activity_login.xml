@@ -50,7 +50,6 @@
         <EditText
             android:id="@+id/edt_username"
             android:hint="Username"
-            android:text="sharma.ajay2706@gmail.com"
             style="@style/edittext_style"
             android:drawableLeft="@drawable/ic_user"
             android:drawablePadding="15dp"
@@ -68,7 +67,6 @@
         <EditText
             android:id="@+id/edt_password"
             style="@style/edittext_style"
-            android:text="H25Y1755"
             android:hint="Password"
             android:inputType="textPassword"
             android:drawableStart="@drawable/ic_vpn_key"
