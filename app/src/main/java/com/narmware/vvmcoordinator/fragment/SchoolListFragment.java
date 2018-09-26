@@ -149,7 +149,7 @@ public class SchoolListFragment extends Fragment {
 
         MyApplication.config_realm(getContext());
 
-        schoolAdapter=new SchoolAdapter(getContext());
+        schoolAdapter=new SchoolAdapter(getContext(),getActivity().getSupportFragmentManager());
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         mRecyclerView.setAdapter(schoolAdapter);

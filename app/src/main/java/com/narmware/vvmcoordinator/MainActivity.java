@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
 
         ButterKnife.bind(this);
-        schoolAdapter=new SchoolAdapter(MainActivity.this);
+        schoolAdapter=new SchoolAdapter(MainActivity.this,getSupportFragmentManager());
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mRecyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
         mRecyclerView.setAdapter(schoolAdapter);

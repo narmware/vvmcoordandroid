@@ -1,10 +1,18 @@
 package com.narmware.vvmcoordinator.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.RecyclerView;
+import android.transition.TransitionInflater;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,6 +34,7 @@ import com.google.gson.Gson;
 import com.narmware.vvmcoordinator.MyApplication;
 import com.narmware.vvmcoordinator.R;
 import com.narmware.vvmcoordinator.db.RealmController;
+import com.narmware.vvmcoordinator.dialogs.PropDialogFragment;
 import com.narmware.vvmcoordinator.fragment.NotificationFragment;
 import com.narmware.vvmcoordinator.fragment.SchoolListFragment;
 import com.narmware.vvmcoordinator.pojo.Login;
@@ -50,10 +59,12 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
 
     private static Context context;
     private static Realm realm;
-    public RequestQueue mVolleyRequest;
+    FragmentManager fragmentManager;
+    FragmentTransaction fragmentTransaction;
 
-    public SchoolAdapter(Context context) {
+    public SchoolAdapter(Context context,FragmentManager fragmentManager) {
         this.context = context;
+        this.fragmentManager=fragmentManager;
     }
 
 
@@ -192,10 +203,23 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
             mBtnReport=itemView.findViewById(R.id.btn_report);
 
             mBtnReport.setOnClickListener(new View.OnClickListener() {
+                @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                 @Override
                 public void onClick(View view) {
                     RealmResults<Login> login=realm.where(Login.class).findAll();
-                    sendReport(login.get(0).getCo_ordinator_id(),mItem.getInst_id(),mItem.getInst_name(),mItem.getCity(),mItem.getInst_mobile());
+                    DialogFragment newFragment = PropDialogFragment.newInstance();
+                    Bundle args = new Bundle();
+                    args.putString(Constants.COORD_ID,login.get(0).getCo_ordinator_id());
+                    args.putString(Constants.SCH_ID,mItem.getInst_id());
+                    args.putString(Constants.SCH_NAME,mItem.getInst_name());
+                    args.putString(Constants.SCH_CITY,mItem.getCity());
+                    args.putString(Constants.SCH_CONTACT,mItem.getInst_mobile());
+
+                    newFragment.setArguments(args);
+                    newFragment.setEnterTransition(TransitionInflater.from(context).inflateTransition(android.R.transition.slide_right));
+                    newFragment.setCancelable(false);
+                    fragmentTransaction=fragmentManager.beginTransaction();
+                    newFragment.show(fragmentTransaction, "dialog");
                 }
             });
 
@@ -220,66 +244,5 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
         return 0;
     }
 
-    public void sendReport(final String coordid, final String sch_id, final String sch_name, final String sch_city, final String sch_contact) {
-        mVolleyRequest = Volley.newRequestQueue(context);
 
-        // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, EndPoints.BASE_URL,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        // Display the response string.
-                        Log.e("Report RESPONSE",response);
-
-                        try {
-                            Gson gson = new Gson();
-                            TimeLogResponse dataResponse = gson.fromJson(response, TimeLogResponse.class);
-                            if (dataResponse.getStatus_code().equals(Constants.ERROR)) {
-
-                            }
-                            if (dataResponse.getStatus_code().equals(Constants.SUCCESS)) {
-
-                            }
-                        }catch (Exception e)
-                        {e.printStackTrace();
-                        }
-
-                    }
-                }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.e("RESPONSE ERR","That didn't work!");
-                showNoConnectionDialog();
-            }
-        }) {
-            //adding parameters to the request
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String, String> params = new HashMap<>();
-                params.put("key","VVM");
-                params.put("param", Constants.SCHOOL_DELETE);
-                params.put(Constants.COORD_ID,coordid);
-                params.put(Constants.SCH_ID,sch_id);
-                params.put(Constants.SCH_NAME,sch_name);
-                params.put(Constants.SCH_CITY,sch_city);
-                params.put(Constants.SCH_CONTACT,sch_contact);
-
-                return params;
-            }
-        };
-        // Add the request to the RequestQueue.
-        mVolleyRequest.add(stringRequest);
-    }
-
-    public void showNoConnectionDialog(){
-        Snackbar.make(SchoolListFragment.mRootView, "No internet connection", Snackbar.LENGTH_SHORT)
-                /*.setAction("Ok", new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        //startActivityForResult(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS),10);
-                    }
-                })*/
-                //.setActionTextColor(Color.RED)
-                .show();
-    }
 }
