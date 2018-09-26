@@ -10,11 +10,15 @@ import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RatingBar;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -31,14 +35,19 @@ import com.narmware.vvmcoordinator.support.Constants;
 import com.narmware.vvmcoordinator.support.EndPoints;
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class PropDialogFragment extends DialogFragment {
 
     Button mBtnCancel,mBtnSend;
+    Spinner mSpinnReport;
+    ArrayAdapter arrayAdapter;
+    ArrayList<String> reportList;
+
     public RequestQueue mVolleyRequest;
-    String coordid,sch_id,sch_name,sch_city,sch_contact;
+    String coordid,sch_id,sch_name,sch_city,sch_contact,remark;
     @SuppressLint("ValidFragment")
     private PropDialogFragment() { /*empty*/ }
 
@@ -76,6 +85,28 @@ public class PropDialogFragment extends DialogFragment {
             }
         });
 
+        mSpinnReport=view.findViewById(R.id.spinn_report);
+        reportList=new ArrayList<>();
+        reportList.add("Duplicate Entry");
+        reportList.add("Fake Entry");
+        reportList.add("Not existing");
+        reportList.add("Request to delete");
+        reportList.add("Other");
+        arrayAdapter=new ArrayAdapter(getContext(),android.R.layout.simple_list_item_1,reportList);
+        mSpinnReport.setAdapter(arrayAdapter);
+
+        mSpinnReport.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                remark=reportList.get(i);
+                //Toast.makeText(getContext(),reportList.get(i)+"", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setView(view);
         return builder.create();
@@ -98,7 +129,8 @@ public class PropDialogFragment extends DialogFragment {
 
                             }
                             if (dataResponse.getStatus_code().equals(Constants.SUCCESS)) {
-
+                                Toast.makeText(getContext(), "Report sent successfully", Toast.LENGTH_SHORT).show();
+                                dismiss();
                             }
                         }catch (Exception e)
                         {e.printStackTrace();
@@ -123,7 +155,7 @@ public class PropDialogFragment extends DialogFragment {
                 params.put(Constants.SCH_NAME,sch_name);
                 params.put(Constants.SCH_CITY,sch_city);
                 params.put(Constants.SCH_CONTACT,sch_contact);
-                params.put(Constants.REMARK,"Fake School");
+                params.put(Constants.REMARK,remark);
 
                 return params;
             }
