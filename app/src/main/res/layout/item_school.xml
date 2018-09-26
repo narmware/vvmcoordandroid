@@ -176,7 +176,6 @@
                     android:layout_height="wrap_content"
                     style="@style/desc_card"/>
 
-
                 <TextView
                     android:id="@+id/txt_profile_paidcnt"
                     android:text="300 / 250 / 50"
@@ -190,13 +189,11 @@
 
         </LinearLayout>
 
-
         <RelativeLayout
             android:id="@+id/lin_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-           >
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/txt_last_call"
