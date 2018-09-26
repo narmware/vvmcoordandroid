@@ -40,6 +40,7 @@ public class Constants {
     public static final String SCH_NAME="sch_name";
     public static final String SCH_CITY="sch_city";
     public static final String SCH_CONTACT="sch_contact";
+    public static final String REMARK="remark";
 
 
 }
