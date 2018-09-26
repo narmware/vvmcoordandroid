@@ -239,6 +239,7 @@ public class SchoolAdapter extends RealmRecyclerViewAdapter<SchoolDetails> {
                 SchoolListFragment.mEmptyLinear.setVisibility(View.INVISIBLE);
                 SchoolListFragment.mTxtTotalCount.setText("Total schools : "+getRealmAdapter().getCount());
             }
+
             return getRealmAdapter().getCount();
         }
         return 0;

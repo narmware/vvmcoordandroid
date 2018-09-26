@@ -98,6 +98,7 @@ public class SchoolListFragment extends Fragment {
     boolean isAll=false;
     boolean isContacted=false;
     boolean isNotContacted=false;
+    public static int total_std_count=0,total_paid_std_count=0,total_unpaid_std_count=0;
 
     public SchoolListFragment() {
         // Required empty public constructor
@@ -260,9 +261,22 @@ public class SchoolListFragment extends Fragment {
 
     }
 
-    public static void setRealmAdapter(RealmResults<SchoolDetails> books) {
+    public static void setRealmAdapter(RealmResults<SchoolDetails> schools) {
 
-        RealmSchoolAdapter realmAdapter = new RealmSchoolAdapter(mContext, books, true);
+        RealmSchoolAdapter realmAdapter = new RealmSchoolAdapter(mContext, schools, true);
+        total_std_count=0;
+        total_paid_std_count=0;
+        total_unpaid_std_count=0;
+
+        for(int i=0;i<schools.size();i++)
+        {
+            total_std_count=total_std_count+Integer.parseInt(schools.get(i).getTotal_count());
+            total_paid_std_count=total_paid_std_count+Integer.parseInt(schools.get(i).getPaid_count());
+            total_unpaid_std_count=total_unpaid_std_count+Integer.parseInt(schools.get(i).getUnpaid_count());
+        }
+        Log.e("Total data count",total_std_count+"");
+        Log.e("Total paid count",total_paid_std_count+"");
+        Log.e("Total unpaid count",total_unpaid_std_count+"");
         // Set the data and tell the RecyclerView to draw
         schoolAdapter.setRealmAdapter(realmAdapter);
         schoolAdapter.notifyDataSetChanged();
