@@ -86,7 +86,7 @@ public class SchoolListFragment extends Fragment {
     @BindView(R.id.fab_filter) FloatingActionButton mFabFilter;
 
     @BindView(R.id.simpleSearchView) SearchView searchView;
-    public static TextView mTxtTotalCount;
+    public static TextView mTxtTotalCount, mTxtTotalCountStudent;
     public static RelativeLayout mEmptyLinear;
     public static SchoolAdapter schoolAdapter;
     Realm realm;
@@ -145,6 +145,7 @@ public class SchoolListFragment extends Fragment {
         //getSchools();
         mEmptyLinear=view.findViewById(R.id.lin_empty);
         mTxtTotalCount=view.findViewById(R.id.txt_total_count);
+        mTxtTotalCountStudent=view.findViewById(R.id.txt_total_count_students);
         mRootView=view.findViewById(R.id.rootview);
 
         MyApplication.config_realm(getContext());
