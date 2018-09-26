@@ -126,7 +126,7 @@
 
         <TextView
             android:textSize="16sp"
-            android:text="version 1.0"
+            android:text="@string/app_version"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/btn_logout"
             android:layout_marginTop="10dp"
