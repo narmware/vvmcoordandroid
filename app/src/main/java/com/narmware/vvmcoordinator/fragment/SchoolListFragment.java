@@ -86,7 +86,7 @@ public class SchoolListFragment extends Fragment {
     @BindView(R.id.fab_filter) FloatingActionButton mFabFilter;
 
     @BindView(R.id.simpleSearchView) SearchView searchView;
-    public static TextView mTxtTotalCount;
+    public static TextView mTxtTotalCount,mTxttotalStdCount;
     public static RelativeLayout mEmptyLinear;
     public static SchoolAdapter schoolAdapter;
     Realm realm;
@@ -146,6 +146,7 @@ public class SchoolListFragment extends Fragment {
         //getSchools();
         mEmptyLinear=view.findViewById(R.id.lin_empty);
         mTxtTotalCount=view.findViewById(R.id.txt_total_count);
+        mTxttotalStdCount=view.findViewById(R.id.txt_total_std_count);
         mRootView=view.findViewById(R.id.rootview);
 
         MyApplication.config_realm(getContext());
@@ -274,9 +275,10 @@ public class SchoolListFragment extends Fragment {
             total_paid_std_count=total_paid_std_count+Integer.parseInt(schools.get(i).getPaid_count());
             total_unpaid_std_count=total_unpaid_std_count+Integer.parseInt(schools.get(i).getUnpaid_count());
         }
-        Log.e("Total data count",total_std_count+"");
-        Log.e("Total paid count",total_paid_std_count+"");
-        Log.e("Total unpaid count",total_unpaid_std_count+"");
+
+        String std_count="Student(Total / Paid / Unpaid): "+total_std_count+" / "+total_paid_std_count+" / "+total_unpaid_std_count;
+        mTxttotalStdCount.setText(std_count);
+
         // Set the data and tell the RecyclerView to draw
         schoolAdapter.setRealmAdapter(realmAdapter);
         schoolAdapter.notifyDataSetChanged();
@@ -301,9 +303,18 @@ public class SchoolListFragment extends Fragment {
                         Gson gson=new Gson();
                         SchoolResponse dataResponse=gson.fromJson(response,SchoolResponse.class);
                         SchoolDetails[] array=dataResponse.getResult();
+                        total_std_count=0;
+                        total_paid_std_count=0;
+                        total_unpaid_std_count=0;
 
                         for(SchoolDetails item:array)
                         {
+                            total_std_count=total_std_count+Integer.parseInt(item.getTotal_count());
+                            total_paid_std_count=total_paid_std_count+Integer.parseInt(item.getPaid_count());
+                            total_unpaid_std_count=total_unpaid_std_count+Integer.parseInt(item.getUnpaid_count());
+                            String std_count="Student(Total / Paid / Unpaid): "+total_std_count+" / "+total_paid_std_count+" / "+total_unpaid_std_count;
+                            mTxttotalStdCount.setText(std_count);
+
                             SchoolDetails single_item=realm.where(SchoolDetails.class).equalTo("inst_id",item.getInst_id()).findFirst();
                             if(single_item==null)
                             {
@@ -322,6 +333,12 @@ public class SchoolListFragment extends Fragment {
                                 single_item.setExam_coordinator(item.getExam_coordinator());
                                 single_item.setPayment_status(item.getPayment_status());
                                 single_item.setCity(item.getCity());
+                                single_item.setTotal_count(item.getTotal_count());
+                                single_item.setPaid_count(item.getPaid_count());
+                                single_item.setUnpaid_count(item.getUnpaid_count());
+                                single_item.setInst_email(item.getEmail());
+                                single_item.setPass(item.getPass());
+
                                 realm.commitTransaction();
                         }
 
