@@ -14,19 +14,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <TextView
-            android:id="@+id/txt_sch_name"
-            android:layout_alignParentTop="true"
+        <RelativeLayout
             android:padding="5dp"
-            android:text="Narmware Software Solutions"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="true"
-            android:textSize="18sp"
-            android:textColor="@color/colorAccent"
-            android:fontFamily="sans-serif"
-            style="@style/title_card"/>
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_sch_name"
+                android:layout_centerVertical="true"
+                android:text="Narmware Software Solutions"
+                android:layout_toLeftOf="@+id/btn_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif"
+                style="@style/title_card"/>
+
+            <ImageButton
+                android:id="@+id/btn_report"
+                android:foreground="?attr/selectableItemBackground"
+                app:srcCompat="@drawable/ic_report"
+                android:padding="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_above="@+id/lin_bottom"
@@ -56,6 +73,18 @@
 
                 <TextView
                     android:text="Contact number:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+                <TextView
+                    android:text="Username:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/title_card"/>
+
+                <TextView
+                    android:text="Password:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/title_card"/>
@@ -107,6 +136,18 @@
                 <TextView
                     android:id="@+id/txt_sch_contact"
                     android:text="8805250944"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
+                    android:id="@+id/txt_sch_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/desc_card"/>
+
+                <TextView
+                    android:id="@+id/txt_sch_password"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/desc_card"/>

@@ -14,6 +14,7 @@ public class Constants {
     public static final String API_KEY="VVM";
     public static final String LOGIN="coordinator_login";
     public static final String TIMELOG="coordinator_timelog";
+    public static final String SCHOOL_DELETE="school_delete";
 
     public static final String SUCCESS="200";
     public static final String ERROR="404";
@@ -34,6 +35,12 @@ public class Constants {
     public static final String COMPLETE="Complete";
     public static final String INCOMPLETE="Incomplete";
     public static final String NOT_PROVIDED="Not Provided";
+
+    public static final String SCH_ID="sch_id";
+    public static final String SCH_NAME="sch_name";
+    public static final String SCH_CITY="sch_city";
+    public static final String SCH_CONTACT="sch_contact";
+
 
 }
 

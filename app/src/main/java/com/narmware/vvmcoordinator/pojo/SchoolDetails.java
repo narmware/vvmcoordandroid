@@ -10,7 +10,25 @@ public class SchoolDetails extends RealmObject {
 
 private String inst_name,inst_mobile,inst_id,nameofprincipal,exam_coordinator,inst_email,payment_status,city;
     private String call_count,last_call, total_count, paid_count, unpaid_count;
+    private String email,pass;
     private boolean isCalled;
+
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
 
     public boolean isCalled() {
         return isCalled;

@@ -82,7 +82,7 @@ public class SchoolListFragment extends Fragment {
 
     RequestQueue mVolleyRequest;
     @BindView(R.id.recyclerview) RecyclerView mRecyclerView;
-    @BindView(R.id.rootview) RelativeLayout mRootView;
+    public static RelativeLayout mRootView;
     @BindView(R.id.fab_filter) FloatingActionButton mFabFilter;
 
     @BindView(R.id.simpleSearchView) SearchView searchView;
@@ -145,6 +145,7 @@ public class SchoolListFragment extends Fragment {
         //getSchools();
         mEmptyLinear=view.findViewById(R.id.lin_empty);
         mTxtTotalCount=view.findViewById(R.id.txt_total_count);
+        mRootView=view.findViewById(R.id.rootview);
 
         MyApplication.config_realm(getContext());
 
